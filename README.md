@@ -5,7 +5,9 @@
 - Use methods to modularize the program.
 
 ## **Program Description**
-In this program, you will validate and format calendar dates according to the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) standard, YYYY-MM-DD. For example, the US Declaration of Independence was adopted on 1776-07-04, according to the standard. _Note the dates are zero-padded_. A date is considered valid if:
+[ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) is an international standard covering the worldwide exchange and communication of date and time-related data. The standard uses the [Gregorian calendar](https://en.wikipedia.org/wiki/Gregorian_calendar). Calendar date representations are in the form YYYY-MM-DD (or YYYYMMDD). For example, the US Declaration of Independence was adopted on 1776-07-04, according to the standard. _Note the dates are zero-padded_.
+
+In this project you will write a utility class that validates and processes calendar dates in accordance to the ISO 8601 standard. In addition, a tester class will be created to verify your methods funcion correctly. A date is considered valid if:
 - The month is between 1 and 12
 - The day is valid for the given month and year, taking into account leap years
 
@@ -13,8 +15,6 @@ The valid day ranges for each month are:
 - 31 days January, March, May, July, August, October, December.
 - 30 days April, June, September, November.
 - 28 or 29 days February (29 if it is a leap year, otherwise 28).
-
-The program will provide utility methods to check if a given date is valid and format it accordingly. In addition, a tester class will be created to verify your methods funcion correctly.
 
 ## Program Specifications
 Declare a class called `Date` with the following parts:
